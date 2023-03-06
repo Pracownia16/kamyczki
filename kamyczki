@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Sprawdzian</title>
+</head>
+<body>
+    <div class="content">
+        <nav>
+            <h1>Sprawdzian</h1>
+            <img src="img/hat.png" alt="kapelusz">
+            <div class="menu">
+                <ul>
+                    <li><a href="#">home</a>
+                        <ul>
+                            <li><a href="#" class="op1">Opcja 1</a></li>
+                            <li><a href="#" class="op2">Opcja 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Strona1</a></li>
+                    <li><a href="#">Strona2</a></li>
+                    <li><a href="#">Strona3</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+        <main>
+            <div class="left">
+                <ol>
+                    <li><b>Dane ucznia:</b>
+                        <ul>
+                            <li>Imię: </li>
+                            <li>Nazwisko: </li>
+                            <li>Klasa: </li>
+                            <li>Numer: </li>
+                        </ul>
+                    </li>
+                    <li><b>Test</b>: Statyczne Strony Internetowe</li>
+                    <li><b>Data</b>: 2023</li>
+                </ol>
+            </div>
+            <div class="mid">
+                <div class="img1">
+                    <figure>
+                        <img src="img/rys1.jpg" alt="rysunek">
+                        <figcaption><b>Lorem Ipsum </b>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</figcaption>
+                    </figure>
+                    
+                </div>
+                <div class="img1">
+                    <figure>
+                        <img src="img/rys1.jpg" alt="rysunek">
+                        <figcaption><b>Lorem Ipsum </b>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>Strona wykonana przez aha</p>
+        </footer>
+    </div>
+</body>
+</html>
