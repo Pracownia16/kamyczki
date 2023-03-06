@@ -1,0 +1,183 @@
+<!DOCTYPE html> 
+<html lang="PL"> 
+<head> 
+<title>tabele</title> 
+<meta charset="UTF-8">
+<meta name="keywords" content="tabele"> 
+<meta name="author" content="aha"> 
+<style> 
+*
+    {
+	box-sizing:border-box;
+	margin: 0 auto;
+	padding:0 auto;
+	}
+
+#pojemnik
+	{
+	width:1000px;
+	background:orange;
+	margin:20px auto;
+	overflow:hidden;
+    border: 2px solid black;
+    position: relative;
+	}
+	
+.prawa
+	{
+	width:290px;
+	float:right;
+    height: 350px;    
+	}
+	
+.lewa
+	{
+	width:700px;
+	float:left;
+	border-right:2px dashed black;
+    list-style-position: inside;
+    height: 350px;
+	} 	
+header
+	{
+    padding: 0px;
+	border-bottom:2px dashed black;
+    text-align: center;
+    background-color: orangered;
+	}	
+footer
+	{
+    text-align:center;
+    background-color:orange;
+	clear: both;
+    padding: 10px;
+    border-top: 2px black dashed;
+	}
+figure img
+    {
+    position: absolute;
+    right: 130px;
+    bottom: 230px;
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    }
+h3
+    {
+    text-align: center;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    }
+ol
+    {
+    text-align: center;
+    margin: 0 auto;
+
+    }
+
+table, tr, td
+    {
+    border: 2px solid black;
+    text-align: center;
+    width: 100px;
+    }
+td
+    {
+    padding-left: 8px;
+    padding-right: 8px;
+    }
+
+ul li{
+    display: inline;
+    }
+a
+    {
+    color: white;
+    display: inline;
+    background-color: orangered;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px 40px;
+    width: 230px;
+    }
+    ul{
+        padding: 20px;
+    border-top: 2px dashed black;
+    padding-top: 30px;
+    }
+figcaption:hover
+    {
+    transition: 3s;
+    }
+
+h1{
+    padding: 20px; 
+}
+
+.lista{
+    padding-bottom: 25px;
+    margin: 0;
+}
+</style> 
+</head>
+<body>
+<div id="pojemnik">
+	<header><h1><ins>NAGŁÓWEK</ins></h1>
+        <ul>
+            <li><a href="a">Opcja 1</a></li>
+            <li><a href="a">Opcja 2</a></li>
+            <li><a href="a">Opcja 3</a></li>
+        </ul>
+    </header>
+	<div class="lewa">
+        <div class="lista">
+        <h3>Tabela i lista</h3>
+        <ol type="I">
+            <li>Opcja 1</li>
+            <li>Opcja 2
+                    <ol>
+                        <li>Opcja 1</li>
+                        <li>Opcja 2</li>
+                    </ol>
+            </li>
+            <li>Opcja 3</li>
+        </ol>
+        </div>
+        <table>
+            <tr>
+                <th colspan="2" rowspan="2">
+                    <table>
+                        <tr>
+                            <td colspan="2">1</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>3</td>
+                        </tr>
+                    </table>
+                </th>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td rowspan="3">6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td colspan="2">10</td>
+            </tr>
+        </table>
+	</div>
+	<div class="prawa">
+        <figure><img src="konopia.png" alt="tu powinien być obrazek" title="pojawia się napis"></figure>
+	</div>
+	<footer>Strona zrobiona przez Filip Tomczykiewicz</footer>
+</div>
+</body>
+</html>
