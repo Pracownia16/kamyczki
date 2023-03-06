@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+nav{
+    background-color: #9999FF;
+    position: relative;
+    border-bottom: 2px solid black;
+}
+.content{
+    margin: 0 auto;
+    width: 960px; 
+}
+
+h1{
+    font-size: 32px;
+    color: #2A4365;
+    padding: 20px;
+    margin-left: 130px;
+}
+
+nav img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.menu ul{
+    list-style-type: none;
+    position: relative;
+}
+a{
+    display: inline-block;
+    width: 100px;
+    border: 2px solid black;
+    color: black;
+    
+    text-align: center;
+    text-decoration: none;
+    border-bottom: none;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu li{
+    display: inline;
+}
+.menu ul ul li a{
+    display: block;
+    background-color: #C0C0C0;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-color: green;
+    
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+}
+ul li a{
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+ul li:hover > ul{
+    display: block;
+}
+.op1{
+    border-top: none;
+    
+}
+
+.menu{
+    margin-left: 100px;
+    margin-top: 32px;
+}
+
+ol{
+    padding-top: 90px;
+    padding-left: 45px;
+    padding-bottom: 30px;
+}
+main{
+    background-color: #CCCCFF;
+    overflow: hidden;
+    border-bottom: 2px solid black;
+}
+.left ul{
+    margin-left: 38px;
+    
+}
+.left{
+    width: 30%;
+    border-right: 2px solid black;
+    float: left;
+   
+}
+.mid{
+    float: left;
+    width: 70%;
+    position: relative;
+}
+
+.mid img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.img1{
+    width: 50%;
+    float: left;
+    
+}
+figure{
+    position: relative;
+    width: 200px;
+    margin: 0 auto;
+    
+}
+figcaption{
+    position: absolute;
+    width: 200px;
+    top: 30px;
+    padding: 8px;
+    background-color: #C0C0C0;
+    opacity: 0;
+}
+figure:hover>figcaption{
+    opacity: 1;
+}
+footer{
+    background-color: #CCCCFF;
+    text-align: center;
+}
+p{
+    padding: 5px;
+}
+
+@media only screen and (max-width: 800px){
+    nav img{
+        display: none;
+    }
+    ul li:hover > ul{
+        display: none;
+    }
+
+}
+
+.op2{
+    border-bottom: 2px solid green;
+}
