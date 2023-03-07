@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/arkusz.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cialo">
+        <header>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">strona 1</a></li>
+                <li><a href="#">strona 2</a></li>
+            </ul>
+            <figure>
+                <img src="img/logo.jpg" alt="logo">
+                <figcaption>
+                    <p id="lorem">Lorem ipsum</p>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+                </figcaption>
+            </figure>
+        </header>
+        <div class="lewo">
+            <p>l i s t a</p>
+            <ul>
+                <li><a href="#">strona 1</a></li>
+                <li><a href="#">strona 2</a></li>
+            </ul>
+        </div>
+        <div class="center">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent velit risus, condimentum at pretium ac, egestas porta est. Aenean malesuada viverra urna id viverra. Ut porta tristique ante. Nullam dolor augue, ornare in tristique eu, fermentum sed eros. Proin quis est quam. Donec placerat turpis augue, sit amet varius tellus vulputate at. Quisque id ullamcorper nisl. Donec cursus eget lacus quis luctus.
+            </p>
+        </div>
+        <div class="prawo">
+            <p>Jak do nas dojechać<br>
+            <a href="#">[dane adresowe]</a></p>
+            <br>
+            <p>Nasza firma<br>
+            <a href="#">[galeria zdjęć]</a></p>
+        </div>
+        <footer>
+            <hr>
+            <p>strona wykonana przez Rafała Cupała.</p>
+            <hr>
+        </footer>
+    </div>
+</body>
+</html>
