@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+.cialo {
+    width: 800px;
+    height: 630px;
+    margin: 0 auto;
+    background-color: rgb(144,238, 144);
+}
+
+header {
+    height: 270px;
+    width: 100%;
+    padding: 2%;
+}
+
+.prawo {
+    float: left;
+    width: 20%;
+    height: 270px;
+    padding: 3%;
+}
+
+.center {
+    float: left;
+    width: 60%;
+    height: 270px;
+    border-left: 1px solid rgb(218, 218, 218);
+    border-right: 1px solid rgb(218, 218, 218);
+    padding: 3%;
+    overflow: hidden;
+}
+
+.lewo {
+    float: left;
+    width: 20%;
+    height: 270px;
+    padding-left: 5%;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header a {
+    width: 100px;
+    background-color: rgb(46, 103, 0);
+    border: 1px black solid;
+    border-bottom: none;
+    margin-right: 10px;
+    padding-left: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    background-color: rgb(211,255,176);
+    color:  black;
+}
+
+header li {
+    display: inline;
+
+}
+
+li:hover {
+    background-color: rgb(144,238, 144);
+}
+
+a  {
+    display: inline-block;
+}
+
+img  {
+    border: 1px solid black;
+}
+
+.lewo p {
+    font-weight: bold;
+}
+
+.lewo li {
+    list-style-type: square;
+    display: block;
+}
+
+.lewo ul {
+    list-style-type: square;
+    display: block;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    height: 100px;
+    padding: 2%;
+}
+
+footer p {
+    text-align: center;
+}
+
+figure {
+    position: absolute;
+    margin: 0 auto;
+}
+
+figcaption {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    background-color: rgb(46, 103, 0);
+    border: 1px solid black;
+    top: 25px;
+    left: 25px;
+    padding: 1%;
+}
+
+figcaption:hover {
+    background-color: white;
+}
+
+#lorem {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.lewo ul {
+    padding: 10%;
+}
+
+.lewo li {
+    list-style-type: square;
+}
+
+@media only screen and (max-width: 450px) {
+    .cialo {
+        background-color: rgb(80, 128, 9);
+        width: 100%;
+        height: 100%;
+    }
+    
+    header {
+        height: 10%;
+    }
+
+    .lewo {
+        display: none;
+    }
+    .center {
+        width: 100%;
+        height: 30%;
+        border-left: none;
+        border-right: none;
+    }
+
+    .prawo {
+        width: 100%;
+        height: 30%;
+    }
+
+    figure {
+        display: none;
+    }
+    
+    header a {
+        width: 100%;
+        background-color: rgb(46, 103, 0);
+        border: 1px black solid;
+        margin-right: 10px;
+        padding-left: 5px;
+        color: white;
+        text-decoration: none;
+    }
+
+}
